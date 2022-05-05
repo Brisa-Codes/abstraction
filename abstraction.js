@@ -20,7 +20,3 @@ function Booking(name, flightClass, luggage) {
 let booking1 = new Booking('Saint Laurent', 'Business', 30);
 // users only can this function, but they don't know what's happening on the inside.
 booking1.callCenter();
-// any user can change this function
-// this changes the customercarenumber from outside
-booking1.customerCareNumber = 256777355906;
-booking1.callCenter()
