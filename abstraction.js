@@ -18,5 +18,5 @@ function Booking(name, flightClass, luggage) {
 
 // instatiate a new object
 let booking1 = new Booking('Saint Laurent', 'Business', 30);
-// users only can this function, but they don't know what's happening on the inside.
+// users only can also access this function, but they don't know what's happening on the inside.
 booking1.callCenter();
